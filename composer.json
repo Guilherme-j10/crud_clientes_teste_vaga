@@ -1,0 +1,16 @@
+{
+    "name": "teste/teste",
+    "description": "teste para vaga de programador php",
+    "authors": [
+        {
+            "name": "Guilherme Campos",
+            "email": "guilhermeZA.123123@gmail.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4":{
+    		"app\\": "app/"
+    	}
+    },
+    "require": {}
+}

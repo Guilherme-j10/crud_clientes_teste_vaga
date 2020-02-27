@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+	font-weight: normal;
+	font-family: Arial;
+	outline: none;
+	box-sizing: border-box;
+}
+
+main{
+	width: 100%;
+	padding: 5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main header{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+main header h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main header p a{
+	padding: 10px;
+	background-color: green;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+main table{
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+main table tr td, th{
+	width: 25%;
+	padding: 12px;
+	text-align: center;
+}
+
+main table tr th{
+	background-color: #333;
+	color: #fff;
+}
+
+main table tr td{
+	background-color: #ccc;
+	color: #333;
+}
+
+main table tr td form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+main table tr td form button{
+	margin: 0px 5px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background-color: #222;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/* ESTILO DA PAGINA CRIAR */
+main form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main form .line{
+	width: 400px;
+	margin-bottom: 15px;
+}
+
+
+main form .line input{
+	width: 100%;
+	padding: 12px;
+	border-bottom: solid 1px #ccc;
+}
+
+main form input[type=submit]{
+	width: 120px;
+	background-color: blue;
+	color: #fff;
+	padding: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
