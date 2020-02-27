@@ -7,7 +7,7 @@ Baixe os arquivos para a sua maquina, em seguida coloque a aplicação dentro do
 Dentro da pasta **sql** tem um arquivo chamado **teste_vaga.sql**. Após você iniciar o **apache** e o **mysql**, na url do navegador você deverá ir ate ao phpmyadmin digitando, **localhost(ou o seu ip)/phpmyadmin**, depois disto, devera clicar em importar e selecionar o aqruivio mensionado.
 
 ### 3 - Configurando a conexão
-No aqruivo conexão que se encontra em **app/database/conexao.php** você deverá configurar as credenciais de acesso a base de dados, alguns servidores são diferente possuem senhas, usuários diferentes, então pos via das duvidas, deixo aqui a instrução. Por padrão o phpmyadmin vem sem senha e com usuário root. 
+No aqruivo conexão que se encontra em **app/database/conexao.php** você deverá configurar as credenciais de acesso a base de dados, alguns servidores são diferente e possuem senhas e usuários diferentes, então por via das duvidas, deixo aqui a instrução. Por padrão o phpmyadmin vem sem senha e com usuário root. 
 
     class conexao{
 
