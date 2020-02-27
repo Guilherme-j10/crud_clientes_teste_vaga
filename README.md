@@ -1,0 +1,1 @@
+# Como incializar a aplicação.
